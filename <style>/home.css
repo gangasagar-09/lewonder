@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #404040;
+}
+
+li{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  height:30px; 
+  width:30px; 
+  margin-right: 7px;
+  margin-top: 10px;
+}
+
+#lewonder_image{
+  height:40px; 
+  width: 40px; 
+  padding: 5px; 
+  margin-bottom: -38px;
+}
+
+body {
+  background-color: black;
+}
+
+#wonder{
+  color:white; 
+  padding:2px; 
+  margin-left:3px;
+}
